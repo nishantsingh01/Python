@@ -16,10 +16,10 @@ def calc(s1, s2, s3, s4):
     return total_sale, com_amt, remarks
 
 if __name__ == "__main__":
-    sale1 = int(input("Enter the sales for week 1: "))
-    sale2 = int(input("Enter the sales for week 2: "))
-    sale3 = int(input("Enter the sales for week 3: "))
-    sale4 = int(input("Enter the sales for week 4: "))
+    s1 = int(input("Enter the sales for week 1: "))
+    s2 = int(input("Enter the sales for week 2: "))
+    s3 = int(input("Enter the sales for week 3: "))
+    s4 = int(input("Enter the sales for week 4: "))
     t_sales, comm, remarks = calc(sale1, sale2, sale3, sale4)
 
     print("Total Sales: Rs.{:.2f}".format(t_sales))
